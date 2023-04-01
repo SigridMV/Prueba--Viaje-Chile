@@ -1,0 +1,108 @@
+html {
+  scroll-behavior: auto !important;
+}
+
+body {
+  font-family: Helvetica;
+  background-color: #000000
+}
+
+/* Navbar*/
+
+.navbar {
+  position: fixed;
+  width: 100vw;
+  z-index: 1;
+}
+
+.navbar-brand {
+  font-family: "Open sans";
+  font-size: 40px;
+  font-weight: 700;
+}
+
+
+
+.imagen-viajes {
+  max-width: 2.5% !important;
+}
+
+.imagen-viajes .texto-viajes {
+  display: block;
+}
+
+.texto-viajes p {
+  margin-left: 10px;
+  margin-bottom: -1px;
+  color: white;
+}
+
+.carousel-item {
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
+}
+
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2px;
+
+}
+
+.p {
+  display: block;
+  text-align: left; 
+  margin: 0 1em;
+}
+
+.color {
+  background-color: black;
+  padding: 10px 0;
+}
+
+
+.fa-plane {
+  color: white;
+  background-color: #1798c1;
+  padding-left: 120px;
+  padding-right: 120px;
+  font-size: 150%;
+  margin: 0;
+  margin-right: 10px;
+}
+
+.fa-mountain {
+    color: white;
+    background-color: #1798c1;
+    padding-left: 120px;
+    padding-right: 120px;
+    font-size: 150%;
+    margin: 0 auto;
+    margin-right: 10px;
+}
+
+.fa-route {
+    color: white;
+    background-color: #1798c1;
+    padding-left: 120px;
+    padding-right: 120px;
+    font-size: 150%;
+    margin: 0 auto;
+    margin-right: 10px;
+}
+
+#Destacados h1{
+    font-size: 25px;
+}
+
+
+
+
+
+
+
